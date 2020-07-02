@@ -15,3 +15,15 @@ function getPostValue($key, $default = Null)
 
 
 echo getPostValue('email');
+
+
+/**
+ *    Examples of SuperGlobal Variables 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
