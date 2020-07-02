@@ -51,3 +51,12 @@ var_dump($instance1 === $instance2);
 
 var_dump($instance1 === $instance3);
 //this will print bool(false)
+
+
+/**
+ * 
+ * The getInstance() method is a static method which is declared with a
+ * preceeding static keyword.. We use scope resolution value "::" when we 
+ * calling a static method or static property in 
+ * PHP
+ */
