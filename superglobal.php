@@ -18,12 +18,15 @@ echo getPostValue('email');
 
 
 /**
- *    Examples of SuperGlobal Variables 
+ *    Examples of SuperGlobal Variables Are ;
  * 
- * 
- * 
- * 
- * 
- * 
- * 
+ * $GLOBALS
+ * $_ENV
+ * $_COOKIE
+ * $_FILES
+ * $_GET
+ * $_POST
+ * $_REQUEST
+ * $_SERVER
+ * $_SESSION
  */
