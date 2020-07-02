@@ -1,7 +1,12 @@
 <?php
 // Variables that can be used anywhere in the code without the global keyword
 
-
+/**
+ *
+ * @param [type] $key
+ * @param [type] $default
+ * @return void
+ */
 function getPostValue($key, $default = Null)
 {
 
@@ -39,13 +44,8 @@ function name()
 
     $firstname = "first name of the client";
 
-    echo 'Firstname of client is' . $GLOBALS["firstname"] . "\n";
+    echo 'Firstname of client is ' . $GLOBALS["firstname"] . "\n";
 }
 
 $firstname = "Abdul Shakur";
 name();
-
-
-
-
-//$_ENV
