@@ -30,3 +30,22 @@ echo getPostValue('email');
  * $_SERVER
  * $_SESSION
  */
+
+
+
+//$GLOBALS
+function name()
+{
+
+    $firstname = "first name of the client";
+
+    echo 'Firstname of client is' . $GLOBALS["firstname"] . "\n";
+}
+
+$firstname = "Abdul Shakur";
+name();
+
+
+
+
+//$_ENV
